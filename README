@@ -14,10 +14,10 @@ Deploy Mytoken into Goerli
 
 Deploy MyToken into polygon mumbai network
 
-Migrate into polygon mumbai network
-truffle migrate --network goerli
+  Migrate into polygon mumbai network
+  truffle migrate --network goerli
 
-Then finally verify using
-truffle run verify  MyToken --network goerli
+  Then finally verify using
+  truffle run verify  MyToken --network goerli
 
-Verified contract is present at "0x2D4A1c15c50E5e307e77F329F39EDdFB8Bb1aEf4" (https://mumbai.polygonscan.com/address/0x2D4A1c15c50E5e307e77F329F39EDdFB8Bb1aEf4#code) 
+  Verified contract is present at "0x2D4A1c15c50E5e307e77F329F39EDdFB8Bb1aEf4" (https://mumbai.polygonscan.com/address/0x2D4A1c15c50E5e307e77F329F39EDdFB8Bb1aEf4#code) 
