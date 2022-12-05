@@ -1,0 +1,23 @@
+Deploy Mytoken into Goerli
+
+  Install truffle
+  Install all dependencies using npm i
+
+  Then compile and migrate into goerli network
+  truffle compile --all
+  truffle migrate --network goerli
+
+  Then finally verify using
+  truffle run verify  MyToken --network goerli
+
+  Verified contract is present at "0x08d9Bd3032A0aA0271f65a46C2E4A23B29501be8" (https://goerli.etherscan.io/address/0x08d9Bd3032A0aA0271f65a46C2E4A23B29501be8#code) 
+
+Deploy MyToken into polygon mumbai network
+
+Migrate into polygon mumbai network
+truffle migrate --network goerli
+
+Then finally verify using
+truffle run verify  MyToken --network goerli
+
+Verified contract is present at "0x2D4A1c15c50E5e307e77F329F39EDdFB8Bb1aEf4" (https://mumbai.polygonscan.com/address/0x2D4A1c15c50E5e307e77F329F39EDdFB8Bb1aEf4#code) 
